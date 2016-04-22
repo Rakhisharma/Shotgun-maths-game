@@ -225,13 +225,13 @@ game:
 		       }
 
         case 5:
-		printf("\n\n\n4/7 + 2/5 What will be the sum?");
-		printf("\n\nA.Coulomb\t\tB.Watt\n\nC.Power\t\tD.Units");
+		printf("\n\n\n 14/7 + 0/5 - 0/5 What will be the the answer?");
+		printf("\n\nA.0\t\tB.2\n\nC.1\t\tD.5");
 		if (toupper(getch())=='B')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is B.Power");
+		           printf("\n\nWrong!!! The correct answer is B.2");
 		       getch();
 		       goto score;
 		       break;
