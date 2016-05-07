@@ -204,8 +204,8 @@ game:
 		       }
 
         case 3:
-		printf("\n\n\n 1%4 + 2%4 What will be the sum? ");
-		printf("\n\nA.2/4\t\tB.7/4\n\nC.3/4\t\tD.9/4");
+		printf("\n\n\n 4/1 + 0/4 What will be the sum? ");
+		printf("\n\nA.0\t\tB.7/4\n\nC.4\t\tD.9");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
