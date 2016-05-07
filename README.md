@@ -3,4 +3,8 @@
 Learn IT, Girl Project.
 http://learnitgirl.com/
 
-This project is completed under the guidence of my mentor Rohit Kashyap (rkgudboy).
+This is a quize game which aims to teach the basics of maths Functions to the 1st-4th grad school students.
+
+Technology used: C programming.
+
+This project is completed under the guidence of my  assigned mentor Rohit Kashyap (rkgudboy).
