@@ -210,7 +210,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.4");getch();
+		       {printf("\n\nWrong!!! The correct answer is C. 4");getch();
 		       goto score;
 		       break;}
 
