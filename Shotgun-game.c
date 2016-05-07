@@ -43,9 +43,11 @@ int main()
 	goto mainhome;
 	}
 	else if (choice=='R')
-	{reset_score();
+	{
+	reset_score();
 	getch();
-	goto mainhome;}
+	goto mainhome;
+	}
 	else if (choice=='Q')
 	exit(1);
     else if(choice=='S')
@@ -99,7 +101,7 @@ int main()
 			    printf("\n\nCorrect!!!");count++;
 			    getch();
 			    break;
-}
+			}
 		else
 		       {
 		           printf("\n\nWrong!!! The correct answer is C.5");
@@ -153,7 +155,8 @@ int main()
         else
 		       {printf("\n\nWrong!!! The correct answer is B.-13");
 		       getch();
-		       break;}
+		       break;}}
+		       }
 	if(count>=2)
 	{goto test;}
 	else
@@ -337,7 +340,7 @@ game:
 		else
 		       {printf("\n\nWrong!!! The correct answer is B.sold 12 turkey sandwiches and 3 ham sandwiches");getch();
 		       goto score;
-		       break;}
+		       break;}}}
 	score:
     system("cls");
 	score=(float)countr*100000;
@@ -412,7 +415,7 @@ void help()
 
 	printf("\n\n\t*********************BEST OF LUCK*********************************");
 	}
-
+	
 void edit_score(float score, char plnm[20])
 	{system("cls");
 	float sc;
