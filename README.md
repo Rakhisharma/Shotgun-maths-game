@@ -2,4 +2,4 @@
 
 Learn IT, Girl Project.
 
-This project is completed under the guidence of my mentor Rohit Kashyap (Also known as rkgudboy).
+This project is completed under the guidence of my mentor Rohit Kashyap (Also known as https://github.com/rkgudboy).
